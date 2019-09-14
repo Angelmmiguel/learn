@@ -1,0 +1,17 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "Learn new things!",
+  "main": "index.js",
+  "repository": "git@github.com:Angelmmiguel/learn.git",
+  "author": "Angel M <@_angelmm>",
+  "license": "(Apache-2.0 OR CC-BY-4.0)",
+  "private": true,
+  "scripts": {
+    "start": "charge serve src",
+    "build": "charge build src build"
+  },
+  "dependencies": {
+    "@static/charge": "^1.5.0"
+  }
+}
